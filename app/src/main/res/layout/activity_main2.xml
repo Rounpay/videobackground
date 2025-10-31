@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Container sized by TextView; custom view matches parent (frame) -->
+    <FrameLayout
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp">
+
+        <com.example.myapplication.MovingBorderGlowView
+            android:id="@+id/movingBorder1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_margin="8dp"
+            android:layout_gravity="center"
+            android:background="#222222"
+            android:text="🔥 Super Offer 🔥"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/wrapper"
+        android:layout_margin="10dp"
+        android:layout_width="150dp"
+        android:padding="10dp"
+        android:layout_height="150dp">
+
+        <com.example.myapplication.MovingBorderGlowView
+            android:id="@+id/movingBorder2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_margin="8dp"
+            android:layout_gravity="center"
+            android:background="#222222"
+            android:text="🔥 Super Offer 🔥"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_margin="10dp"
+        android:layout_width="150dp"
+        android:padding="10dp"
+        android:layout_height="150dp">
+
+        <com.example.myapplication.MovingBorderGlowView
+            android:id="@+id/movingBorder3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_margin="8dp"
+            android:layout_gravity="center"
+            android:background="#222222"
+            android:text="🔥 Super Offer 🔥"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+    </FrameLayout>
+</LinearLayout>
